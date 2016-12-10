@@ -1,0 +1,19 @@
+create database news character set utf8;
+
+use news;
+
+create table article(
+id int primary key auto_increment,
+title varchar(100) not null,
+body varchar(8000) not null,
+adddate varchar(30) not null,
+adduser varchar(10) not null
+);
+
+create table userpassword(
+id int primary key auto_increment,
+user_id varchar(15) not null,
+user_password varchar(15) not null,
+ismaster char(1) not null,
+user_name varchar(10)
+);
