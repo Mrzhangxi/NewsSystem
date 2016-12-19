@@ -1,0 +1,29 @@
+A:LINK {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: underline;
+}
+A:HOVER {
+	font-size: 9pt;
+	color: #ff00000;
+}
+A:VISITED {
+	font-size: 9pt;
+	color: #0000ff;
+	text-decoration: underline;
+}
+.text {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+}
+.title {
+	font-size: 16pt;
+	color: #000000;
+	text-decoration: none;
+}
+.body {
+	font-size: 12pt;
+	color: #000000;
+	text-decoration: none;
+}
